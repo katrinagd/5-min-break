@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Relax 5 min break App</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <link rel="icon" href="data:,">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="container-video">
+            <video autoplay="autoplay" loop="loop" muted defaultmuted id="myVideo">
+                <source src="waves.mp4" type="video/mp4">
+            </video>
+            <div class="button-container">
+                <button class="btn" id="startButton">Start</button>
+            </div>
+        </div>
+        <div id="container-countdown">
+            <p id="countdown">Take 5 min break</p>
+        </div>
+
+        <audio id="player" autoplay loop>
+            <source src="ocean-sound.mp3" type="audio/mp3">
+        </audio> 
+
+        <script src="script.js"></script>
+    </body>
+</html>
