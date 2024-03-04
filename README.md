@@ -2,6 +2,10 @@
 
 This is a simple meditation app where users can start a timer, watch a relaxing video, and listen to calming audio. When the timer reaches 0, the page automatically reloads.
 
+## Demo
+
+https://5-min-break.glitch.me/
+
 ## Usage
 
 1. Click the "Start" button to begin the meditation session.
